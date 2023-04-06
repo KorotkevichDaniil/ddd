@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18e36e166f224703bc5c4b78a04897a7" Name="Diagram1">
+        <EntityTypeShape EntityType="ukrasehieModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Единицы_измерения" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Заказы" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Категории" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Пользователи" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Поставщики" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Продукты" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Производители" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Пункты_выдачи" Width="1.5" PointX="0.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Роли_пользователя" Width="1.5" PointX="1.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Составы_заказа" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ukrasehieModel.Статусы" Width="1.5" PointX="0.75" PointY="22.375" IsExpanded="true" />
+        <AssociationConnector Association="ukrasehieModel.FK_Продукты_Единицы_измерения" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Заказы_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Заказы_Пункты_выдачи" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Заказы_Статусы" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Составы_заказа_Заказы" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Продукты_Категории" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Пользователи_Роли_пользователя" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Продукты_Поставщики" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Продукты_Производители" ManuallyRouted="false" />
+        <AssociationConnector Association="ukrasehieModel.FK_Составы_заказа_Продукты" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
